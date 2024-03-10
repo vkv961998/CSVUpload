@@ -1,0 +1,46 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Main container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  /* Table styles */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Highlighted table row styles */
+  .table tr.highlighted {
+    background-color: #f0f8ff; /* Light blue */
+  }
+  
