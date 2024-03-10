@@ -59,6 +59,8 @@
                     <td><%= file.createdAt.toLocaleDateString() %></td>
                     <td><%= file.createdAt.toLocaleTimeString() %></td>
                     <td><a href="/view/<%= file.file %>" class="view-link"><i class="fa-solid fa-file" style="color: green;"></i></a></td>
+                    <!-- <td><a href="/view/<%= file.file %>" class="view-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td> -->
+
                     <td><a href="/delete/<%= file.file %>" class="delete-link"><i class="fa-sharp fa-regular fa-trash-can " style="color: maroon;"></i></a></td>
                 </tr>
                 <% } %>
